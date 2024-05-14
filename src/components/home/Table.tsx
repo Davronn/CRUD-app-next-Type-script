@@ -136,7 +136,7 @@ export default function Table() {
               <td className="px-6 py-4 whitespace-nowrap">
                 {editingContactId === contact.id ? (
                   <input
-                    className="bg-slate-500 text-white"
+                    className="  border-black border-2 border-solid"
                     type="text"
                     value={editedName}
                     onChange={(e) => setEditedName(e.target.value)}
@@ -148,7 +148,7 @@ export default function Table() {
               <td className="px-6 py-4 whitespace-nowrap">
                 {editingContactId === contact.id ? (
                   <input
-                  className="bg-slate-500 text-white"
+                  className="  border-black border-2 border-solid"
                     type="text"
                     value={editedEmail}
                     onChange={(e) => setEditedEmail(e.target.value)}
@@ -160,7 +160,7 @@ export default function Table() {
               <td className="px-6 py-4 whitespace-nowrap">
                 {editingContactId === contact.id ? (
                   <input
-                  className="bg-slate-500 text-white"
+                  className="  border-black border-2 border-solid"
                     type="text"
                     value={editedTelephone}
                     onChange={(e) => setEditedTelephone(e.target.value)}
@@ -172,7 +172,7 @@ export default function Table() {
               <td className="px-16 py-4 whitespace-nowrap">
                 {editingContactId === contact.id ? (
                   <input
-                  className="bg-slate-500 text-white"
+                  className="  border-black border-2 border-solid"
                     type="text"
                     value={editedMessage}
                     onChange={(e) => setEditedMessage(e.target.value)}
