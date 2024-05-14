@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Acessar',
-  description: 'Digite e-mail e senha para acessar',
+  title: 'Home',
+  description: 'Cadastro de usuários',
 }
 
 export default function RootLayout({
